@@ -31,6 +31,7 @@ function leCSV(evt) {
 		for ( var j = 0; j < fileLine.length; j++) {
 			strDiv += '<td>' + fileLine[j].trim() + '</td>';
 		}
+		// Modificação
 		if (Number(fileLine[1]) >= 0){
 			totalArquivoTipo1 += Number(fileLine[1]);
 		}
@@ -59,6 +60,7 @@ function leCSV2(evt) {
 		for ( var j = 0; j < fileLine.length; j++) {
 			strDiv += '<td>' + fileLine[j].trim() + '</td>';
 		}
+		// Modificação
 		if (Number(fileLine[2]) >= 0){
 			totalArquivoTipo2 += Number(fileLine[2]);
 		}
